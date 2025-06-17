@@ -1,0 +1,618 @@
+*{
+    margin:0;
+    padding:0;
+    }
+   /*body{
+        background-image:url("model-y.png");
+        background-position:center;
+        background-attachment:fixed;
+        background-repeat:no-repeat;
+        background-size:cover;
+    }
+        */
+        .container{
+            width: 100%;
+            height:100vh;
+            background-image:url("model-y.png");
+            background-position:center;
+            background-repeat:no-repeat;
+            background-size:cover;
+            background-attachment:;
+        }
+        
+    .navbar image{
+        margin:50px;
+        cursor:pointer;
+        height:100px;
+        width:100px;
+        border-radius:30px 50px 100px 50px/100px 50px 50px 50px;
+        box-shadow: 10px 5px 5px goldenrod;
+    }
+    .navbar {
+        width:85%;
+        margin:auto;
+        padding:35px,o;
+        align-items:center;
+        display:flex;
+        justify-content:space-between;
+      
+        }
+        .navbar ul li{
+            list-style:none;
+            display:inline-block;
+            margin:20px;
+            position:relative;
+            
+            
+        }
+        .navbar ul li a{
+            text-decoration:none;
+            color:white;
+            text-transform: uppercase;
+            
+        }
+        .navbar ul li::after{
+            content:'';
+            height:3px;
+            width:0px;
+            background:blue;
+            position:absolute;
+            left:0;
+            bottom:-10px;
+            transition: 0.5s;
+        }
+        .navbar ul li:hover::after{
+            width:100%;
+        }
+        .content{
+            width:100%;
+            position:absolute;
+            top:20%;
+            transform:translateY(-50%);
+            text-align:center;
+            color:white;
+           
+        }
+        .content h1{
+            font-size:70px;
+            margin-top:80px;
+        }
+        .content p{
+            margin:20px auto;
+            font-weight:100;
+            line-height:25px;
+        }
+        .content h3{
+            text-decoration: underline;
+        }
+
+.btn1 , .btn2 {
+    display: block;
+    border: none;
+    cursor: pointer;
+    font-weight: 600;
+    padding: 0.7rem 6rem;
+    border-radius: 6px;
+    text-wrap: nowrap;
+  }
+  
+  .btn1{
+    background: #3e6ae1;
+    color: white;
+    transition: 0.5sec;
+  }
+  .btn2{
+    background: #fff;
+    color: rgba(0, 0, 0, 0.722);
+  }
+  .button-group{
+    display: flex;
+    position: absolute;
+    top:90%;
+    left:35%;
+  }
+  .lono{
+    cursor: pointer;
+  }
+  .img{
+    cursor: pointer;
+  }
+  .btn1:hover{
+    background-color: green;
+  }
+  .btn1:hover::after{
+    width:100%;
+  }
+  .model-x{
+    width: 100%;
+    height:100vh;
+    background-image:url("https://digitalassets.tesla.com/tesla-contents/image/upload/f_auto,q_auto/Homepage-Model-3-Desktop-US.png");
+    background-position:center;
+    background-repeat:no-repeat;
+    background-size:cover;
+  }
+   .name{
+        width:100%;
+        position:absolute;
+        text-align:center;
+        color:white;
+        top:100%;
+
+       
+    }
+    .name h1{
+        font-size:70px;
+        margin-top:80px;
+    }
+    .name p{
+        margin:20px auto;
+        font-weight:100;
+        line-height:25px;
+    }
+    .name h3{
+        text-decoration: underline;
+    }
+    .btn3, .btn4 {
+        display: block;
+        border: none;
+        cursor: pointer;
+        font-weight: 600;
+        padding: 0.7rem 6rem;
+        border-radius: 6px;
+        text-wrap: nowrap;
+      }
+      
+      .btn3{
+        background: #3e6ae1;
+        color: white;
+        transition: 0.5sec;
+      }
+      .btn4{
+        background: #fff;
+        color: rgba(0, 0, 0, 0.722);
+      }
+    .btn{
+        display: flex;
+        position: absolute;
+        top:190%;
+        left:35%;
+      }
+    
+      .btn3:hover{
+        background-color: green;
+      }
+      .btn4:hover::after{
+        width:100%;
+      }
+      .model-s{
+        width: 100%;
+        height:100vh;
+        background-image:url("https://digitalassets.tesla.com/tesla-contents/image/upload/f_auto,q_auto/Homepage-Model-X-Desktop-US.png");
+        background-position:center;
+        background-repeat:no-repeat;
+        background-size:cover;
+      }
+      .roll{
+        width:100%;
+        position:absolute;
+        text-align:center;
+        color:white;
+        top:200%;
+
+       
+    }
+    .roll h1{
+        font-size:70px;
+        margin-top:80px;
+    }
+    .roll p{
+        margin:20px auto;
+        font-weight:100;
+        line-height:25px;
+    }
+    .roll h3{
+        text-decoration: underline;
+    }
+    .roll h2{
+        font-size:40px;
+    }
+    .roll h4{
+        text-decoration: underline;
+    }
+    .btn5, .btn6 {
+        display: block;
+        border: none;
+        cursor: pointer;
+        font-weight: 600;
+        padding: 0.7rem 6rem;
+        border-radius: 6px;
+        text-wrap: nowrap;
+      }
+      
+      .btn5{
+        background: #3e6ae1;
+        color: white;
+        transition: 0.5sec;
+      }
+      .btn6{
+        background: #fff;
+        color: rgba(0, 0, 0, 0.722);
+      }
+    .got{
+        display: flex;
+        position: absolute;
+        top:290%;
+        left:35%;
+      }
+    
+      .btn5:hover{
+        background-color: green;
+      }
+      .btn6:hover::after{
+        width:100%;
+      }
+      .model-b{
+        width: 100%;
+        height:100vh;
+        background-image:url("https://digitalassets.tesla.com/tesla-contents/image/upload/f_auto,q_auto/Homepage-Model-S-Desktop-US.png");
+        background-position:center;
+        background-repeat:no-repeat;
+        background-size:cover;
+      }
+      .ro{
+        width:100%;
+        position:absolute;
+        text-align:center;
+        color:white;
+        top:300%;
+
+       
+    }
+    .ro h1{
+        font-size:70px;
+        margin-top:80px;
+    }
+    .ro p{
+        margin:20px auto;
+        font-weight:100;
+        line-height:25px;
+    }
+    .ro h3{
+        text-decoration: underline;
+    }
+    .ro h2{
+        font-size:40px;
+    }
+    .ro h4{
+        text-decoration: underline;
+    }
+    .btn7, .btn8 {
+        display: block;
+        border: none;
+        cursor: pointer;
+        font-weight: 600;
+        padding: 0.7rem 6rem;
+        border-radius: 6px;
+        text-wrap: nowrap;
+      }
+      
+      .btn7{
+        background: #3e6ae1;
+        color: white;
+        transition: 0.5sec;
+      }
+      .btn8{
+        background: #fff;
+        color: rgba(0, 0, 0, 0.722);
+      }
+    .go{
+        display: flex;
+        position: absolute;
+        top:390%;
+        left:35%;
+      }
+    
+      .btn7:hover{
+        background-color: green;
+      }
+      .btn8:hover::after{
+        width:100%;
+      }
+      .model-c{
+        width: 100%;
+        height:100vh;
+        background-image:url("https://digitalassets.tesla.com/tesla-contents/image/upload/f_auto,q_auto/Homepage-Cybertruck-Desktop-v3.png");
+        background-position:center;
+        background-repeat:no-repeat;
+        background-size:cover;
+      }
+      .ron{
+        width:100%;
+        position:absolute;
+        text-align:center;
+        color:white;
+        top:400%;
+
+       
+    }
+    .ron h1{
+        font-size:70px;
+        margin-top:80px;
+    }
+  
+    .btn9, .btn10 {
+        display: block;
+        border: none;
+        cursor: pointer;
+        font-weight: 600;
+        padding: 0.7rem 6rem;
+        border-radius: 6px;
+        text-wrap: nowrap;
+      }
+      
+      .btn9{
+        background: black;
+        color:gray;
+        transition: 0.5s;
+        text-decoration:none;
+
+      }
+      .btn10{
+        background:black;
+        color: gray;
+      }
+    .gon{
+        display: flex;
+        position: absolute;
+        top:420%;
+        left:35%;
+      }
+    
+      .btn9:hover{
+        background-color: green;
+      }
+      .btn10:hover::after{
+        width:100%;
+      }
+      
+      .so{
+        width: 100%;
+        height:100vh;
+        background-image:url("https://digitalassets.tesla.com/tesla-contents/image/upload/f_auto,q_auto/Homepage-SolarPanels-01-Desktop");
+        background-position:center;
+        background-repeat:no-repeat;
+        background-size:cover;
+      }
+      .rog{
+        width:100%;
+        position:absolute;
+        text-align:center;
+        color:white;
+        top:500%;
+
+       
+    }
+    .rog h1{
+        font-size:60px;
+        margin-top:80px;
+    }
+    .rog h2{
+      font-size:30px;
+      text-decoration:underline;
+
+    }
+    .btn11, .btn12 {
+      display: block;
+      border: none;
+      cursor: pointer;
+      font-weight: 600;
+      padding: 0.7rem 6rem;
+      border-radius: 6px;
+      text-wrap: nowrap;
+    }
+    
+    .btn11{
+      background:rgb(52, 52, 237);
+      color:white;
+      transition: 0.5s;
+      text-decoration:none;
+
+    }
+    .btn112{
+      background:black;
+      color: gray;
+    }
+    .goat{
+      display: flex;
+      position: absolute;
+      top:590%;
+      left:35%;
+    }
+    .btn11:hover{
+      background-color: green;
+    }
+    .home{
+      width: 100%;
+      height:100vh;
+      background-image:url("https://digitalassets.tesla.com/tesla-contents/image/upload/f_auto,q_auto/Homepage-SolarRoof-Desktop-US.png");
+      background-position:center;
+      background-repeat:no-repeat;
+      background-size:cover;
+
+    }
+    .hub{
+      width:100%;
+      position:absolute;
+      text-align:center;
+      color:white;
+      top:600%;
+
+     
+  }
+  .hub h1{
+      font-size:60px;
+      margin-top:80px;
+  }
+  .hub h2{
+    font-size:30px;
+   
+
+  }
+  .btn13, .btn14 {
+    display: block;
+    border: none;
+    cursor: pointer;
+    font-weight: 600;
+    padding: 0.7rem 6rem;
+    border-radius: 6px;
+    text-wrap: nowrap;
+  }
+  
+  .btn13{
+    background:rgb(52, 52, 237);
+    color:white;
+    transition: 0.5s;
+    text-decoration:none;
+
+  }
+  .btn14{
+    background:black;
+    color: gray;
+  }
+  .avenger{
+    display: flex;
+    position: absolute;
+    top:690%;
+    left:35%;
+  }
+  .btn13:hover{
+    background-color: green;
+  }
+  .wall{
+    width: 100%;
+    height:100vh;
+    background-image:url("https://digitalassets.tesla.com/tesla-contents/image/upload/f_auto,q_auto/Homepage-Powerwall-Desktop-US.png");
+    background-position:center;
+    background-repeat:no-repeat;
+    background-size:cover;
+
+  }
+  .switch{
+    width:100%;
+    position:absolute;
+    text-align:center;
+    color:white;
+    top:700%;
+
+   
+}
+.switch h1{
+    font-size:60px;
+    margin-top:80px;
+}
+.btn15, .btn16 {
+  display: block;
+  border: none;
+  cursor: pointer;
+  font-weight: 600;
+  padding: 0.7rem 6rem;
+  border-radius: 6px;
+  text-wrap: nowrap;
+}
+
+.btn15{
+  background:rgb(52, 52, 237);
+  color:white;
+  transition: 0.5s;
+  text-decoration:none;
+
+}
+.btn16{
+  background:black;
+  color: gray;
+}
+.average{
+  display: flex;
+  position: absolute;
+  top:790%;
+  left:35%;
+}
+.btn15:hover{
+  background-color: green;
+}
+.Accessories{
+  width: 100%;
+  height:100vh;
+  background-image:url("https://digitalassets.tesla.com/tesla-contents/image/upload/f_auto,q_auto/Homepage-Accessories-Desktop-US.png");
+  background-position:center;
+  background-repeat:no-repeat;
+  background-size:cover;
+
+}  
+.swift{
+  width:100%;
+  position:absolute;
+  text-align:center;
+  color:white;
+  top:800%;
+
+ 
+}
+.swift h1{
+  font-size:60px;
+  margin-top:80px;
+}
+.btn20 {
+  display: block;
+  border: none;
+  cursor: pointer;
+  font-weight: 600;
+  padding: 0.7rem 6rem;
+  border-radius: 6px;
+  text-wrap: nowrap;
+}
+
+.btn20{
+  background:rgb(52, 52, 237);
+  color:white;
+  transition: 0.5s;
+  text-decoration:none;
+
+}
+.jyoti{
+  display: flex;
+  position: absolute;
+  top:890%;
+  left:45%;
+}
+footer {
+  background-color: black;
+  padding: 3.5rem 0;
+}
+footer > div {
+  width: 40%;
+  margin: auto;
+}
+footer>.text-content a{
+  color: rgba(255, 255, 255, 0.858)
+}
+footer > div > p {
+  padding-top: 1rem;
+  font-size: 0.75rem;
+  font-weight: 500;
+  text-align: center;
+  color: rgba(255, 255, 255, 0.71);
+}
+.footer-nav {
+  margin-top: 3rem;
+}
+.footer-nav > a {
+  text-decoration: none;
+  font-size: small;
+  color: rgba(255, 255, 255, 0.808);
+  cursor: pointer;
+  padding: 0.4rem;
+  text-align: center;
+}
+
+
